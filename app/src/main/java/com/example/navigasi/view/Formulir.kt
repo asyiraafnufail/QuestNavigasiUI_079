@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun FormIsian(
-    JenisK:List<String> = ListOf("Laki-Laki","Perempuan"),
+    JenisK:List<String> = listOf("Laki-Laki","Perempuan"),
     OnSubmitBtnClick: () -> Unit
 ){
     Scaffold (modifier = Modifier,
