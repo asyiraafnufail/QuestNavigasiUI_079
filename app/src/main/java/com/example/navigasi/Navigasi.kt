@@ -8,6 +8,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.navigasi.view.FormIsian
 
 enum class Navigasi {
     Formulirku,
@@ -33,9 +34,4 @@ fun DataApp(
             }
         }
     }
-}
-
-@Composable
-fun FormIsian(OnSubmitBtnClick: () -> Unit) {
-    TODO("Not yet implemented")
 }
